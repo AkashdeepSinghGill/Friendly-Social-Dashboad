@@ -9,6 +9,17 @@ body{
 #my-nav a{
     color: white !important;
 }
+.post-section, .Ads{
+    height: 570px;
+    overflow: scroll;
+}
+.post-section::-webkit-scrollbar{
+    display: none;
+}
+.Ads::-webkit-scrollbar{
+    display: none;
+}
+
 
 .added-width{
     min-width: 400px;
@@ -29,15 +40,4 @@ body{
 .panel-body .glyphicon{
     margin-left: 10px;
     margin-right: 4px;
-}
-.panel{
-    margin-bottom: 8px;
-}
-.text-post{
-    margin-bottom: 15px;
-    margin-top: 0px;
-}
-.image-post{
-    margin-bottom: 15px;
-    margin-top: 0px;
 }
